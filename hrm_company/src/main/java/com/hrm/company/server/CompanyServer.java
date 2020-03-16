@@ -11,4 +11,5 @@ public interface CompanyServer {
     public int update(Company company);
     public Company findById(String id);
     public List<Company> findAll();
+
 }
